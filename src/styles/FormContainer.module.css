@@ -1,0 +1,39 @@
+.formContainer {
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  overflow: hidden;
+  width: 60%;
+  height: 75%;
+}
+
+.mainPanel {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.navigationButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1em;
+  box-sizing: border-box;
+}
+
+@media (max-width < 768px) {
+  .formContainer {
+    width: 75%;
+    height: 80%;
+  }
+}

@@ -1,0 +1,12 @@
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.introContainer h1 {
+  font-size: 2rem;
+  text-align: center;
+  width: 80%;
+}

@@ -1,0 +1,42 @@
+.sidePanel {
+  flex: 1;
+  background-color: #007bff;
+  color: #ffffff;
+  height: 100%;
+}
+
+.sidePanel ul {
+  list-style: none;
+  margin-top: 1em;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidePanel ul .stepItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin: 0.25em 0;
+  padding: 0.25em 0.25em 0.25em 0.75em;
+  box-sizing: border-box;
+}
+
+.sidePanel ul .stepItem .indexNumber {
+  width: 2em;
+  height: 2em;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepItem.highlighted {
+  background-color: #0056b3;
+  font-weight: 600;
+}
